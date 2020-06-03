@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="760dp"
+    android:layout_height="730dp"
+    android:scaleType="fitXY"
+    tools:context=".MainActivity"
+
+    android:background="@drawable/loginbg"
+    android:alpha="0.8"
+
+
+
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="52dp"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditView
+
+        android:id="@+id/username"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="96dp"
+
+        android:layout_marginLeft="96dp"
+        android:layout_marginBottom="428dp"
+        android:alpha="0.9"
+
+
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditView
+        android:id="@+id/password"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="444dp"
+        android:layout_marginRight="444dp"
+
+
+        android:alpha="0.9"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+
+        android:textAlignment="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="492dp"
+        android:layout_marginRight="492dp"
+        android:layout_marginBottom="216dp"
+
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

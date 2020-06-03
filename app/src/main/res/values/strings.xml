@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Flab-ulous</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_check">Check</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_reportBook">ReportBook</string>
+    <string name="title_dietPlan">DietList</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="exit_app">Exit App</string>
+    <string name="ext_app_prompt">Are you sure you want to exit this App?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_book">Report Book</string>
+
+    <string name="log_out">Log Out</string>
+</resources>
