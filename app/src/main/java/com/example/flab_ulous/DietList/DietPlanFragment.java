@@ -1,20 +1,16 @@
 package com.example.flab_ulous.DietList;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.flab_ulous.API.APIInstance;
 import com.example.flab_ulous.API.DietPlanResponseModel;
 import com.example.flab_ulous.R;
 import com.example.flab_ulous.API.APIController;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

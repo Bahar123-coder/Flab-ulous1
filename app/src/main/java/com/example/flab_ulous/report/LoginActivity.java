@@ -1,5 +1,4 @@
 package com.example.flab_ulous.report;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,15 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.flab_ulous.API.APIController;
 import com.example.flab_ulous.API.APIInstance;
 import com.example.flab_ulous.API.Oauth;
 import com.example.flab_ulous.preferences.AppPreferences;
 import com.example.flab_ulous.R;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -24,14 +20,10 @@ import retrofit2.Response;
 public class LoginActivity extends AppCompatActivity {
     ImageView backButton;
     EditText edUsername, edPassword;
-
     Button btnLogin;
-
-
     String username, password;
 
     private APIController apiController;
-
     private AppPreferences appPreferences;
 
     @SuppressLint("WrongViewCast")
@@ -41,10 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.welcome);
 
         apiController = APIInstance.getRetrofitInstance().create(APIController.class);
-
         appPreferences = new AppPreferences(getApplication());
-
-
 
         edUsername = findViewById(R.id.username);
         edPassword = findViewById(R.id.username);
