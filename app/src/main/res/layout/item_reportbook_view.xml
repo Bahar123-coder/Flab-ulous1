@@ -20,6 +20,14 @@
         android:orientation="vertical">
 
 
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:id="@+id/tvtest">
+
+</TextView>
 
         <View
             android:layout_width="match_parent"

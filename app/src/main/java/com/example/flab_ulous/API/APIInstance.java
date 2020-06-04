@@ -17,7 +17,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class APIInstance {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "localhost:8085";
+    private static final String BASE_URL = "http://localhost:8085";
 
     public static Retrofit getRetrofitInstance() {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {

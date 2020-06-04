@@ -30,6 +30,8 @@ public class ReportBookListAdapter extends RecyclerView.Adapter<ReportBookListAd
     @Override
     public void onBindViewHolder(@NonNull ReportListViewHolder holder, int position) {
 //        final ReportResponseModel.Detail detail = detailList.get(position);
+        TextView tvLogDate = holder.itemView.findViewById(R.id.tvtest);
+        tvLogDate.setText(detailList.getWeight().toString());
 
 
         CardView cardLogBookView = holder.itemView.findViewById(R.id.reportbookView);

@@ -1,19 +1,14 @@
 package com.example.flab_ulous.report;
-
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-
 import com.example.flab_ulous.R;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
 import com.example.flab_ulous.DietList.DietPlanFragment;
 import com.example.flab_ulous.ReportBook.ReportBookFragment;
 import com.example.flab_ulous.preferences.AppPreferences;
@@ -28,7 +23,7 @@ public class DashBoardActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_dietlist);
+        setContentView(R.layout.activity_dashboard);
         appPreferences = new AppPreferences(getApplication());
         reportBookFragment = new ReportBookFragment();
         dietPlanFragment = new DietPlanFragment();
